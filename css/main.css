@@ -36,6 +36,7 @@ nav a
 {
  
   float: left;
+   
   text-align: center;
   display:block; 
   background: #ccffe6; 
@@ -69,13 +70,19 @@ h2
 }
 
 table {
+    
     border-collapse: collapse;
     width: 100%;
 }
 
 th, td {
+    
     text-align: left;
     padding: 8px;
+}
+td
+{
+     font-family: 'Anton', sans-serif;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
